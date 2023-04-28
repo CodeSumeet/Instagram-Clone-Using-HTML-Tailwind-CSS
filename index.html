@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header id="navbar" class="px-4 sm:max-md:px-12 md:max-lg:px-16 lg:max-xl:px-32 xl:px-56 bg-white border-b-2">
+        
+        <div class="flex justify-left gap-8 md:justify-between items-center">
+            
+            <figure><img src="assets\images\logo.png" alt="Error"></figure>
+            
+            <input type="search" placeholder="Search" class="text-center text-xs font-bold h-6 border-2 border-gray-400 rounded hidden md:block">
+            
+            <ul class="flex justify-between items-center gap-6 md:gap-4 h-12">
+                <li><figure><img src="assets\images\home.png" alt="Error"></figure></li>
+                <li><figure><img src="assets\images\dm.png" alt="Error"></figure></li>
+                <li><figure><img src="assets\images\post.png" alt="Error"></figure></li>
+                <li><figure><img src="assets\images\compass.png" alt="Error"></figure></li>
+                <li><figure><img src="assets\images\like.png" alt="Error"></figure></li>
+                <li><figure><img src="assets\images\profile.jpg" alt="Error" class="rounded-full"></figure></li>
+            </ul>
+        
+        </div>
+
+    </header>
+
+    <div id="container" class="md:grid grid-cols-3 md:max-lg:px-16 lg:max-xl:px-32 xl:px-56 md:mt-8 gap-6">
+        
+        <div id="div1" class="col-span-2">
+        
+            <div id="story" class="flex items-center px-4 md:px-4 sm:px-12 bg-white border-2 h-24">
+        
+                <ul class="flex gap-4 text-center text-xs font-semibold">
+                    <li>
+                        <figure class="rounded-full"><img src="assets\images\user-1.jpeg" alt="Error" class="rounded-full"></figure>
+                        <span>Zack</span>
+                    </li>
+                    <li>
+                        <figure class="rounded-full"><img src="assets\images\user-2.jpeg" alt="Error" class="rounded-full"></figure>
+                        <span>Cody</span>
+                    </li>
+                    <li>
+                        <figure class="rounded-full"><img src="assets\images\user-3.jpeg" alt="Error" class="rounded-full"></figure>
+                        <span>Monica</span>
+                    </li>
+                    <li>
+                        <figure class="rounded-full"><img src="assets\images\user-4.jpeg" alt="Error" class="rounded-full"></figure>
+                        <span>Joey</span>
+                    </li>
+                    <li>
+                        <figure class="rounded-full"><img src="assets\images\user-5.jpeg" alt="Error" class="rounded-full"></figure>
+                        <span>Chandler</span>
+                    </li>
+                </ul>
+        
+            </div>
+
+            <div id="posts" class="mt-8">
+                <div id="user1-post" class="bg-white border-2">
+                    <div class="flex justify-between items-center text-center text-xs font-semibold px-4">
+                        <div id="post-header" class="flex items-center gap-4 h-16">
+                            <figure class="rounded-full"><img src="assets\images\user-1.jpeg" alt="Error" class="rounded-full"></figure>
+                            <span>zack</span>
+                        </div>
+                        <button>...</button>
+                    </div>
+                    <figure><img src="assets\images\post-1.jpg" alt="Error"></figure>
+                    <div id="response-btn" class="flex items-center gap-2 px-4">
+                        <figure><img src="assets\images\like.png" alt="Error"></figure>
+                        <figure><img src="assets\images\comment.png" alt="Error"></figure>
+                        <figure><img src="assets\images\share.png" alt="Error"></figure>
+                        <figure class="ml-auto"><img src="assets\images\bookmark.png" alt="Error"></figure>
+                    </div>
+                    <div id="caption" class="flex items-center gap-2 text-xs px-4">
+                        <span class="font-bold">zack</span>
+                        <span class="font-semibold" style="color: #535353;">Best days of our life</span>
+                    </div>
+                    <div id="comment" class="flex gap-4 text-xs px-4">
+                        <figure><img src="assets\images\smile.png" alt="Error"></figure>
+                        <input type="text" placeholder="Add a comment">
+                        <button class="ml-auto">Post</button>
+                    </div>
+                </div>
+
+
+
+
+
+                <div id="user2-post" class="bg-white border-2 mt-8">
+                    <div class="flex justify-between items-center text-center text-xs font-semibold px-4">
+                        <div id="post-header" class="flex items-center gap-4 h-16">
+                            <figure class="rounded-full"><img src="assets\images\user-2.jpeg" alt="Error" class="rounded-full"></figure>
+                            <span>cody</span>
+                        </div>
+                        <button>...</button>
+                    </div>
+                    <figure><img src="assets\images\post-2.jpg" alt="Error"></figure>
+                    <div id="response-btn" class="flex items-center gap-2 px-4">
+                        <figure><img src="assets\images\like.png" alt="Error"></figure>
+                        <figure><img src="assets\images\comment.png" alt="Error"></figure>
+                        <figure><img src="assets\images\share.png" alt="Error"></figure>
+                        <figure class="ml-auto"><img src="assets\images\bookmark.png" alt="Error"></figure>
+                    </div>
+                    <div id="caption" class="flex items-center gap-2 text-xs px-4">
+                        <span class="font-bold">zack</span>
+                        <span class="font-semibold" style="color: #535353;">Best days of our life</span>
+                    </div>
+                    <div id="comment" class="flex gap-4 text-xs px-4">
+                        <figure><img src="assets\images\smile.png" alt="Error"></figure>
+                        <input type="text" placeholder="Add a comment">
+                        <button class="ml-auto">Post</button>
+                    </div>
+                </div>
+
+
+
+
+
+                <div id="user3-post" class="bg-white border-2 mt-8">
+                    <div class="flex justify-between items-center text-center text-xs font-semibold px-4">
+                        <div id="post-header" class="flex items-center gap-4 h-16">
+                            <figure class="rounded-full"><img src="assets\images\user-3.jpeg" alt="Error" class="rounded-full"></figure>
+                            <span>monica</span>
+                        </div>
+                        <button>...</button>
+                    </div>
+                    <figure><img src="assets\images\post-3.jpg" alt="Error"></figure>
+                    <div id="response-btn" class="flex items-center gap-2 px-4">
+                        <figure><img src="assets\images\like.png" alt="Error"></figure>
+                        <figure><img src="assets\images\comment.png" alt="Error"></figure>
+                        <figure><img src="assets\images\share.png" alt="Error"></figure>
+                        <figure class="ml-auto"><img src="assets\images\bookmark.png" alt="Error"></figure>
+                    </div>
+                    <div id="caption" class="flex items-center gap-2 text-xs px-4">
+                        <span class="font-bold">zack</span>
+                        <span class="font-semibold" style="color: #535353;">Best days of our life</span>
+                    </div>
+                    <div id="comment" class="flex gap-4 text-xs px-4">
+                        <figure><img src="assets\images\smile.png" alt="Error"></figure>
+                        <input type="text" placeholder="Add a comment">
+                        <button class="ml-auto">Post</button>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div id="user4-post" class="bg-white border-2 mt-8">
+                    <div class="flex justify-between items-center text-center text-xs font-semibold px-4">
+                        <div id="post-header" class="flex items-center gap-4 h-16">
+                            <figure class="rounded-full"><img src="assets\images\user-4.jpeg" alt="Error" class="rounded-full"></figure>
+                            <span>joey</span>
+                        </div>
+                        <button>...</button>
+                    </div>
+                    <figure><img src="assets\images\post-4.jpg" alt="Error"></figure>
+                    <div id="response-btn" class="flex items-center gap-2 px-4">
+                        <figure><img src="assets\images\like.png" alt="Error"></figure>
+                        <figure><img src="assets\images\comment.png" alt="Error"></figure>
+                        <figure><img src="assets\images\share.png" alt="Error"></figure>
+                        <figure class="ml-auto"><img src="assets\images\bookmark.png" alt="Error"></figure>
+                    </div>
+                    <div id="caption" class="flex items-center gap-2 text-xs px-4">
+                        <span class="font-bold">zack</span>
+                        <span class="font-semibold" style="color: #535353;">Best days of our life</span>
+                    </div>
+                    <div id="comment" class="flex gap-4 text-xs px-4">
+                        <figure><img src="assets\images\smile.png" alt="Error"></figure>
+                        <input type="text" placeholder="Add a comment">
+                        <button class="ml-auto">Post</button>
+                    </div>
+                </div>
+
+
+
+
+
+                <div id="user5-post" class="bg-white border-2 mt-8">
+                    <div class="flex justify-between items-center text-center text-xs font-semibold px-4">
+                        <div id="post-header" class="flex items-center gap-4 h-16">
+                            <figure class="rounded-full"><img src="assets\images\user-5.jpeg" alt="Error" class="rounded-full"></figure>
+                            <span>chandler</span>
+                        </div>
+                        <button>...</button>
+                    </div>
+                    <figure><img src="assets\images\post-5.jpg" alt="Error"></figure>
+                    <div id="response-btn" class="flex items-center gap-2 px-4">
+                        <figure><img src="assets\images\like.png" alt="Error"></figure>
+                        <figure><img src="assets\images\comment.png" alt="Error"></figure>
+                        <figure><img src="assets\images\share.png" alt="Error"></figure>
+                        <figure class="ml-auto"><img src="assets\images\bookmark.png" alt="Error"></figure>
+                    </div>
+                    <div id="caption" class="flex items-center gap-2 text-xs px-4">
+                        <span class="font-bold">zack</span>
+                        <span class="font-semibold" style="color: #535353;">Best days of our life</span>
+                    </div>
+                    <div id="comment" class="flex gap-4 text-xs px-4">
+                        <figure><img src="assets\images\smile.png" alt="Error"></figure>
+                        <input type="text" placeholder="Add a comment">
+                        <button class="ml-auto">Post</button>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        
+        <div id="div2" class="text-xs md:col-span-1 md:block hidden">
+            <h1 class="font-bold text-lg" style="color: #535353;">Suggestions For You</h1>
+            <div class="flex items-center gap-2 mt-4">
+                <figure class="rounded-full"><img src="assets\images\user-1.jpeg" alt="Error" class="rounded-full"></figure>
+                <div class="flex flex-col">
+                    <span class="font-bold">zack</span>
+                    <span class="font-semibold" style="color: #535353;">Follows You</span>
+                </div>
+                <button id="follow-btn" class="ml-auto">Follow</button>
+            </div>
+
+            <div class="flex items-center gap-2 mt-4">
+                <figure class="rounded-full"><img src="assets\images\user-2.jpeg" alt="Error" class="rounded-full"></figure>
+                <div class="flex flex-col">
+                    <span class="font-bold">cody</span>
+                    <span class="font-semibold" style="color: #535353;">Follows You</span>
+                </div>
+                <button id="follow-btn" class="ml-auto">Follow</button>
+            </div>
+
+            <div class="flex items-center gap-2 mt-4">
+                <figure class="rounded-full"><img src="assets\images\user-3.jpeg" alt="Error" class="rounded-full"></figure>
+                <div class="flex flex-col">
+                    <span class="font-bold">monica</span>
+                    <span class="font-semibold" style="color: #535353;">Follows You</span>
+                </div>
+                <button id="follow-btn" class="ml-auto">Follow</button>
+            </div>
+
+            <div class="flex items-center gap-2 mt-4">
+                <figure class="rounded-full"><img src="assets\images\user-4.jpeg" alt="Error" class="rounded-full"></figure>
+                <div class="flex flex-col">
+                    <span class="font-bold">joey</span>
+                    <span class="font-semibold" style="color: #535353;">Follows You</span>
+                </div>
+                <button id="follow-btn" class="ml-auto">Follow</button>
+            </div>
+
+            <div class="flex items-center gap-2 mt-4">
+                <figure class="rounded-full"><img src="assets\images\user-5.jpeg" alt="Error" class="rounded-full"></figure>
+                <div class="flex flex-col">
+                    <span class="font-bold">chandler</span>
+                    <span class="font-semibold" style="color: #535353;">Follows You</span>
+                </div>
+                <button id="follow-btn" class="ml-auto">Follow</button>
+            </div>
+        </div>
+    
+    </div>
+
+</body>
+</html>
